@@ -1,11 +1,11 @@
 import React from "react";
 
-const ShowMusicsPage = () => {
+const Main = () => {
     return (
         <div>
-            Show
+            Main
         </div>
     )
 }
 
-export default ShowMusicsPage;
+export default Main;

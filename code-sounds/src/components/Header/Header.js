@@ -1,11 +1,11 @@
 import React from "react";
 
-const ShowMusicsPage = () => {
+const Header = () => {
     return (
         <div>
-            Show
+            Header
         </div>
     )
 }
 
-export default ShowMusicsPage;
+export default Header;

@@ -1,11 +1,11 @@
 import React from "react";
 
-const ShowMusicsPage = () => {
+const Footer = () => {
     return (
         <div>
-            Show
+            Footer
         </div>
     )
 }
 
-export default ShowMusicsPage;
+export default Footer;
