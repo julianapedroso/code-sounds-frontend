@@ -1,13 +1,20 @@
 import React from "react";
-import Cover from "../../assets/equalizer-cover.jpg";
-import { CoverImage } from "./styles";
+import Cover from "../../assets/cover.svg";
+import { Navegation, CoverImage } from "./styles";
 
 const Header = () => {
-    return (
-        <div>
-            <CoverImage src={Cover} alt="Capa" />
-        </div>
-    )
-}
+  return (
+    <CoverImage>
+      <img src={Cover} alt="Capa" />
+      <Navegation>
+          <ul>
+              <li>Home</li>
+              <li>Login</li>
+              <li>Cadastrar</li>
+          </ul>
+      </Navegation>
+    </CoverImage>
+  );
+};
 
 export default Header;
