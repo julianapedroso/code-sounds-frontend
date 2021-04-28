@@ -1,5 +1,5 @@
 import React from "react";
-import Cover from "../../assets/cover.svg";
+import Cover from "../../assets/copia-cover.svg";
 import { Navegation, CoverImage } from "./styles";
 
 const Header = () => {
