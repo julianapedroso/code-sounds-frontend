@@ -7,6 +7,7 @@ export const CoverImage = styled.div`
   img {
     width: 100%;
     margin-bottom: -0.5rem;
+    height: 50%;
   }
   /* width: 100%;
   height: 10vh;
@@ -22,14 +23,20 @@ export const CoverImage = styled.div`
 `;
 
 export const Navegation = styled.nav`
-  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
-  height: 4rem;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  height: 0.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  ul {
+  /* ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr)
-  }
+  } */
 `;

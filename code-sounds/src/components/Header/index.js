@@ -6,13 +6,7 @@ const Header = () => {
   return (
     <CoverImage>
       <img src={Cover} alt="Capa" />
-      <Navegation>
-          <ul>
-              <li>Home</li>
-              <li>Login</li>
-              <li>Cadastrar</li>
-          </ul>
-      </Navegation>
+      <Navegation />
     </CoverImage>
   );
 };
